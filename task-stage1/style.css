@@ -12,10 +12,6 @@ a {
   text-decoration: none;
 }
 
-/* li {
-  list-style: none;
-} */
-
 header {
   position: sticky;
   top: 0;
@@ -70,6 +66,7 @@ header .icons {
 
 #home {
   background: linear-gradient(to bottom, #89828d, #d8c7de);
+  /* padding: 20px; */
 }
 
 .img-container {
@@ -82,16 +79,14 @@ header .icons {
 .img-container img {
   width: 100%;
   height: auto;
-  max-width: 583px;
+  max-width: 548px;
   display: block;
-  border-radius: 10px;
 }
 
 .my-info {
   width: 300px;
+  padding: 0 10px 30px;
   margin: 10px auto;
-  text-align: center;
-  padding: 0 0 40px 0;
 }
 
 .single-info {
@@ -100,12 +95,12 @@ header .icons {
 }
 
 .single-info h3 {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .single-info p {
   margin-inline-start: 10px;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .goals {
@@ -142,6 +137,10 @@ section .details p {
 
 .details ul li {
   margin-block-start: 20px;
+}
+
+.details ul li a {
+  color: blue;
 }
 
 footer {
@@ -195,8 +194,6 @@ footer p span {
 
 @media screen and (max-width: 375px) {
   .my-info {
-    width: 80%;
-    margin: 10px auto;
-    text-align: center;
+    width: 90%;
   }
 }
