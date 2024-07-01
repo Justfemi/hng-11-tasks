@@ -65,6 +65,41 @@ header .icons {
   font-size: 35px;
 }
 
+#home {
+  background: linear-gradient(to bottom, #897e8e, #e3c8ed);
+}
+
+.img-container {
+  width: 100%;
+  max-width: 548px;
+  margin:0 auto;
+  padding: 20px;
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+  max-width: 583px;
+  display: block;
+  border-radius: 10px;
+}
+
+.my-info {
+  width: 300px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 0 0 40px 0;
+}
+
+.single-info {
+  display: flex;
+  align-items: center;
+}
+
+.single-info p {
+  margin-inline-start: 10px;
+}
+
 @media screen and (max-width: 600px) {
   header .icons{
     display: block;
@@ -81,6 +116,7 @@ header .icons {
     z-index: 1;
     display: flex;
     background-color: rgb(42, 42, 42);
+    padding: 30px 0;
   }
 
   header nav a {
@@ -89,5 +125,13 @@ header .icons {
 
   header nav.show {
     left: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .my-info {
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
   }
 }

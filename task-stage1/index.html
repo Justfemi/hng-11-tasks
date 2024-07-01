@@ -18,15 +18,59 @@
     </label>
 
     <nav>
-      <a href="#" class="active">Home</a>
+      <a href="#home" class="active">About me</a>
 
-      <a href="#">Home</a>
+      <a href="#goals">Goals</a>
 
-      <a href="#">Home</a>
+      <!-- <a href="#abouthng">About HNG</a> -->
 
-      <a href="#">Home</a>
+      <a href="#links">Links</a>
     </nav>
   </header>
+
+  <section id="home" class="home">
+    <div class="img-container">
+      <img src="./images/newdp.jpg" alt="myslackdp" data-testid="slackProfilePicture">
+    </div>
+
+    <div class="my-info">
+      <div class="single-info">
+        <h3>Name: </h3>
+        <p data-testid="slackDisplayName">Denver</p>
+      </div>
+
+      <div class="single-info">
+        <h3>Email: </h3>
+        <p data-testid="slackEmail">theotherfemi@gmail.com</p>
+      </div>
+
+      <div class="single-info">
+        <h3>Current UTC time: </h3>
+        <p data-testid="currentTimeUTC" id="utc-time"></p>
+      </div>
+
+      <div class="single-info">
+        <h3>Current UTC day: </h3>
+        <p data-testid="currentDay" id="utc-day"></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="goals" class="goals">
+    <div class="title">
+      <h2>
+        My Tech Goals
+      </h2>
+    </div>
+    
+    <div class="details">
+      
+    </div>
+  </section>
+
+  <section id="links" class="links">
+    
+  </section>
 </body>
 <script src="script.js"></script>
 </html>
